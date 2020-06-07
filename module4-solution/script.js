@@ -11,15 +11,15 @@
 // on the console should look like this:
 /*
 Hello Saurav
-Good Bye Gaurav
-Good Bye Abhi
-Good Bye Akki
+Good Bye John
+Good Bye Jen
+Good Bye Jason
+Hello Gaurav
 Hello Swati
-Hello Pooja
-Hello Palak
 Hello Devesh
-Hello Kunal
-Good Bye Aayush
+Hello Akki
+Hello Pooja
+Good Bye Jim
 WARNING!!! WARNING!!!
 The code does NOT currently work! It is YOUR job to make it work
 as described in the requirements and the steps in order to complete this
@@ -30,8 +30,7 @@ WARNING!!! WARNING!!!
 
 (function () {
 
-
-var names = ["Saurav", "Gaurav", "Abhi", "Akki", "Swati", "Pooja", "Palak", "Devesh", "Kunal", "Aayush"];
+var names = ["Saurav", "John", "Jen", "Jason", "Gaurav", "Swati", "Devesh", "Akki", "Pooja", "Jim"];
 
 for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();

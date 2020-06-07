@@ -10,16 +10,16 @@
 // or "j", otherwise, the program should say "Good Bye". So, the final output
 // on the console should look like this:
 /*
-Hello Yaakov
-Good Bye John
-Good Bye Jen
-Good Bye Jason
-Hello Paul
-Hello Frank
-Hello Larry
-Hello Paula
-Hello Laura
-Good Bye Jim
+Hello Saurav
+Good Bye Gaurav
+Good Bye Abhi
+Good Bye Akki
+Hello Swati
+Hello Pooja
+Hello Palak
+Hello Devesh
+Hello Kunal
+Good Bye Aayush
 WARNING!!! WARNING!!!
 The code does NOT currently work! It is YOUR job to make it work
 as described in the requirements and the steps in order to complete this
@@ -30,7 +30,8 @@ WARNING!!! WARNING!!!
 
 (function () {
 
-var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
+var names = ["Saurav", "Gaurav", "Abhi", "Akki", "Swati", "Pooja", "Palak", "Devesh", "Kunal", "Aayush"];
 
 for (var i = 0; i < names.length; i++) {
   var firstLetter = names[i].charAt(0).toLowerCase();
